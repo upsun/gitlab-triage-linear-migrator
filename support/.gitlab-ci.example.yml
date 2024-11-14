@@ -1,0 +1,21 @@
+stages:
+  - triage
+
+migrate-to-linear:dry-run:
+  stage: triage
+  image: ruby:3.1
+  script:
+    - gem install gitlab-triage-linear-migrator
+    - gitlab-triage --dry-run --token $GITLAB_API_TOKEN --host-url $CI_SERVER_URL --source projects --source-id $CI_PROJECT_PATH --require ./triage_plugins.example.rb --policies-file 'triage_policies.example.yml'
+  when: manual
+  except:
+    - schedules
+
+migrate-to-linear:run:
+  stage: triage
+  image: ruby:3.1
+  script:
+    - gem install gitlab-triage-linear-migrator
+    - gitlab-triage --token $GITLAB_API_TOKEN --host-url $CI_SERVER_URL --source projects --source-id $CI_PROJECT_PATH --require ./triage_plugins.example.rb --policies-file 'triage_policies.example.yml'
+  only:
+    - schedules

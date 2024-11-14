@@ -1,0 +1,31 @@
+resource_rules:
+  issues:
+    rules:
+      - name: Create issue in Linear
+        limits:
+          most_recent: 500
+        conditions:
+          labels:
+            - "Linear::To Migrate"  # Remove this line if you want all issues to be migrated.
+          #state: opened # Remove this if you want closed issues to be migrated as well.
+          forbidden_labels:
+            - "Linear::Migrated"
+            - "Linear::Migration Failed"
+          ruby: "!labels.map(&:name).grep(/^Guild::.+$/).empty?" # Change this to match team_label_prefix parameter below!
+        actions:
+          comment: |
+            #{create_issue_in_linear(set_state: true, prepend_project_name: false, team_label_prefix: "Guild")}
+
+          # Change the parameters as you wish:
+          #  - set_state: set to true if you want your imported issues reflect the current state (group label `S::` in GitLab).
+          #      Please note: issues in `S::Inbox` will be migrated to Triage if your team has Triage turned on in Linear.
+          #      If Triage is turned off, issues will have the default issue state, which is indicated (and can be set) on your
+          #      team's Workflow settings page in Linear.
+          #  - prepend_project_name: true means all imported issues will have their titles starting with the GitLab project name.
+          #    Set to false to simply copy the issue title as is.
+          #  - team_label_prefix: The migration requires a label in Gitlab that can be used to set the team name in Linear.
+          #    By default this label needs to be in this format `Team::Name of the team`. The team in Linear must be `Team: Name of the team`.
+          #    You can change the `Team:` prefix by setting this parameter to anything you want (e.g. Guild as in the example above).
+
+          # This comment action will post a comment with a link to the new issue in Linear, add Linear::Migrated label and close the issue.
+          # If the migration fails, it will add Linear::Migration Failed label and also some error debug information into the comment.

@@ -1,0 +1,38 @@
+require: rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 10
+
+RSpec/NestedGroups:
+  Max: 6
+
+RSpec/ExampleLength:
+  Max: 10
+
+Metrics/MethodLength:
+  Max: 60
+
+Layout/LineLength:
+  Max: 200
+
+MultipleMemoizedHelpers:
+  Max: 20
+
+Metrics/ClassLength:
+  Max: 300
+
+# SubjectStub needed to be turned off because we have to stub `build_url` method to get the
+# API calls working. It is not a real concern here as we don't stub a method of the module
+# under test, but the method of the class we extend with the module.
+RSpec/SubjectStub:
+  Enabled: false

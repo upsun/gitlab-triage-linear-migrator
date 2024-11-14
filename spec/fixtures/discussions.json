@@ -1,0 +1,322 @@
+[
+  {
+    "id": "a36377aae29cc21fc9dfa95a47a1c19528382371",
+    "individual_note": true,
+    "notes": [
+      {
+        "id": 817047,
+        "type": null,
+        "body": "created branch [`2-issue-without-s-label`](/roland-release-management-playground/test-project/-/compare/development...2-issue-without-s-label) to address this issue",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2023-03-13T10:39:25.306Z",
+        "updated_at": "2023-03-13T10:39:25.307Z",
+        "system": true,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": false,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "56a0c344a7e06ebe849cdcda52d3d76f14eaf123",
+    "individual_note": true,
+    "notes": [
+      {
+        "id": 817048,
+        "type": null,
+        "body": "mentioned in merge request !88",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2023-03-13T10:39:43.297Z",
+        "updated_at": "2023-03-13T10:39:43.298Z",
+        "system": true,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": false,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "d3c5716b9be8f951cba5c2750f4e4a88157e169f",
+    "individual_note": true,
+    "notes": [
+      {
+        "id": 817051,
+        "type": null,
+        "body": "added #5 as child task",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2023-03-13T10:43:30.218Z",
+        "updated_at": "2023-03-13T10:43:30.219Z",
+        "system": true,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": false,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "5703b9c314e9d5dec171d3763ac9137e41b58027",
+    "individual_note": true,
+    "notes": [
+      {
+        "id": 817053,
+        "type": null,
+        "body": "added #6 as child task",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2023-03-13T10:43:33.527Z",
+        "updated_at": "2023-03-13T10:43:33.528Z",
+        "system": true,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": false,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "a7d35d151eae349f8ac8c4883fe7d68bfb8fc20c",
+    "individual_note": true,
+    "notes": [
+      {
+        "id": 817060,
+        "type": null,
+        "body": "promoted to epic \u00261",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2023-03-13T10:44:27.978Z",
+        "updated_at": "2023-03-13T10:44:27.979Z",
+        "system": true,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": false,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "907a4cef89254a3a8ae3805628cd9f3971be9db7",
+    "individual_note": true,
+    "notes": [
+      {
+        "id": 1003653,
+        "type": null,
+        "body": "Hello @roland.molnar!",
+        "attachment": null,
+        "author": {
+          "id": 59,
+          "username": "ghost",
+          "name": "Ghost User",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://secure.gravatar.com/avatar/4249f4df72b475e7894fabed1c5888cf?s=80\u0026d=identicon",
+          "web_url": "https://example.com/ghost"
+        },
+        "created_at": "2023-07-06T11:26:14.687Z",
+        "updated_at": "2023-07-06T11:26:14.687Z",
+        "system": false,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": false,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "bd6abea2c357fa02465c43624f1ecdd12b9d25b4",
+    "individual_note": false,
+    "notes": [
+      {
+        "id": 1900065,
+        "type": "DiscussionNote",
+        "body": "This is a comment",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2024-05-14T08:26:01.697Z",
+        "updated_at": "2024-05-14T08:26:09.307Z",
+        "system": false,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": true,
+        "resolved": false,
+        "resolved_by": null,
+        "resolved_at": null,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      },
+      {
+        "id": 1900066,
+        "type": "DiscussionNote",
+        "body": "This is a reply.",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2024-05-14T08:26:09.248Z",
+        "updated_at": "2024-05-14T08:26:09.248Z",
+        "system": false,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": true,
+        "resolved": false,
+        "resolved_by": null,
+        "resolved_at": null,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  },
+  {
+    "id": "0ddf7a1592fbcf6e020be5b03d3aa072feb73828",
+    "individual_note": false,
+    "notes": [
+      {
+        "id": 1900067,
+        "type": "DiscussionNote",
+        "body": "This is a thread comment.",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2024-05-14T08:26:22.766Z",
+        "updated_at": "2024-05-14T08:26:22.766Z",
+        "system": false,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": true,
+        "resolved": false,
+        "resolved_by": null,
+        "resolved_at": null,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      },
+      {
+        "id": 1900068,
+        "type": "DiscussionNote",
+        "body": "This is a reply on a thread comment.",
+        "attachment": null,
+        "author": {
+          "id": 310,
+          "username": "roland.molnar",
+          "name": "Roland Molnár",
+          "state": "active",
+          "locked": false,
+          "avatar_url": "https://example.com/uploads/-/system/user/avatar/310/avatar.png",
+          "web_url": "https://example.com/roland.molnar"
+        },
+        "created_at": "2024-05-14T08:26:35.920Z",
+        "updated_at": "2024-05-14T08:26:35.920Z",
+        "system": false,
+        "noteable_id": 47039,
+        "noteable_type": "Issue",
+        "project_id": 2689,
+        "resolvable": true,
+        "resolved": false,
+        "resolved_by": null,
+        "resolved_at": null,
+        "confidential": false,
+        "internal": false,
+        "noteable_iid": 2,
+        "commands_changes": {}
+      }
+    ]
+  }
+]

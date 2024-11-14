@@ -1,10 +1,29 @@
 default:
-  image: ruby:3.3.0
-
+  image: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/ruby:3.1
   before_script:
     - gem install bundler -v 2.5.18
     - bin/setup
+  cache:
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+      - vendor
 
-example_job:
+stages:
+  - test
+
+.tests:
+  stage: test
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_PIPELINE_SOURCE == 'push' && $CI_COMMIT_BRANCH == 'main'
+
+test:linting:
+  extends: .tests
   script:
-    - bundle exec rake
+    - rake rubocop
+  allow_failure: true
+
+test:unit-tests:
+  extends: .tests
+  script:
+    - rake spec

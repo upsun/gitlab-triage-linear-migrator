@@ -5,11 +5,11 @@ require_relative "lib/gitlab/triage/linear/migrator/version"
 Gem::Specification.new do |spec|
   spec.name = "gitlab-triage-linear-migrator"
   spec.version = Gitlab::Triage::Linear::Migrator::VERSION
-  spec.authors = ["Molnár Roland"]
-  spec.email = ["roland.molnar@gmail.com"]
+  spec.authors = ["Laurent Arnoud", "Roland Molnár"]
+  spec.email = ["laurent.arnoud@platform.sh", "roland.molnar@gmail.com"]
 
   spec.summary = "Triage Bot extension to migrate GitLab issues to Linear."
-  spec.description = "Extends GitLab Triage Bot with actions to import issues into Linear (https://linear.app)"
+  spec.description = "Extends GitLab Triage Bot with actions to import issues into Linear (https://linear.app). Initial version was developed by Platform.sh"
   spec.homepage = "https://github.com/upsun/gitlab-triage-linear-migrator"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"

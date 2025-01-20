@@ -29,6 +29,12 @@ RSpec.describe Gitlab::Triage::Linear::Migrator::GraphqlClient do
       it "returns the cached result" do
         expect(client.query(query_string, variables)).to eq("cached result")
       end
+
+      ## Testing GitHub CI unit tests and Rubocop...
+      it "fails" do
+        expect(false).to eq(true) # this also will violate Rubocop rules.
+      end
+
     end
 
     context "when the query is not in the cache" do

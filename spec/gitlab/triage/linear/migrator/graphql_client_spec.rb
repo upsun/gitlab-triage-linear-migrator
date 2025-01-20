@@ -29,7 +29,6 @@ RSpec.describe Gitlab::Triage::Linear::Migrator::GraphqlClient do
       it "returns the cached result" do
         expect(client.query(query_string, variables)).to eq("cached result")
       end
-
     end
 
     context "when the query is not in the cache" do

@@ -17,6 +17,5 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-        run: bin/setup
       - name: Rubocop
         run: rubocop -f github

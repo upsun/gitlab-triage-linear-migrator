@@ -20,7 +20,6 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-        run: bin/setup
       - name: Run Gitlab Triage in dry-run on a real project
         run: bundle exec gitlab-triage --dry-run --token $GITLAB_API_TOKEN --source project --source-id roland-release-management-playground --host-url https://gitlab.com --require 'support/triage_plugins.example.rb' --policies-file 'support/triage_policies.example.yml'
         env:

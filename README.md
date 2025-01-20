@@ -1,9 +1,8 @@
-<p align="center">
+<p style="text-align: center">
 <a href="https://www.upsun.com/">
-<img src="https://github.com/upsun/.github/blob/main/profile/logo.svg?raw=true" width="500px">
+<img src="https://github.com/upsun/.github/blob/main/profile/logo.svg?raw=true" width="500px" alt="Upsun logo">
 </a>
-</p>
-
+<br />
 <br />
 <a href="https://devcenter.upsun.com"><strong>Developer Center</strong></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href="https://upsun.com/"><strong>Website</strong></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp

@@ -64,8 +64,8 @@ module Gitlab
           end
 
           # @todo: make these configurable
-          LABEL_MIGRATION_FAILED = '/label ~"Linear::Migration Failed"'
-          LABEL_MIGRATED = '/label ~"Linear::Migrated"'
+          LABEL_MIGRATION_FAILED = '/label ~"Linear::Migration Failed"\n/remove_label ~"Linear::To Migrate"'
+          LABEL_MIGRATED = '/label ~"Linear::Migrated"\n/remove_label ~"Linear::Migration Failed" ~"Linear::To Migrate"'
           CLOSE_ACTON = "/close"
 
           def create_issue_in_linear(set_state: false, prepend_project_name: false, team_label_prefix: "Team")

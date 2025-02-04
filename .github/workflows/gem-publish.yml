@@ -1,7 +1,9 @@
 name: Publish Ruby Gem
 
 on:
-  push: ['main']
+  push:
+    branches:
+      - main
 
 jobs:
   push:
